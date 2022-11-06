@@ -1,0 +1,62 @@
+.mr-5:hover{
+    color: yellow;
+    font-size: large;
+    color: rgb(242, 255, 1);
+		padding: 5px;
+		display: inline-block;
+		border-radius: 5px;
+		animation: blinkingBackground 5s infinite;
+    
+    }
+    .buttons{
+        color: rgb(247, 247, 247);
+        font-weight: bold;
+    }
+    .blink-bg{
+		color: #fff;
+		padding: 5px;
+		display: inline-block;
+		border-radius: 5px;
+		animation: blinkingBackground 5s infinite;
+	}
+    @keyframes blinkingBackground{
+		0%		{ background-color: #10c018;}
+		25%		{ background-color: #1056c0;}
+		50%		{ background-color: #ef0a1a;}
+		75%		{ background-color: #254878;}
+		100%	   { background-color: #04a1d5;}
+	}
+    #mainphoto{
+        border-radius: 20px;
+        border-top: 3px;
+        
+        }
+ .sems{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: italic;
+            font-size: 25px; }
+.sems:hover{
+            color: rgb(241, 245, 4);
+            padding: 7px;
+            width: fit-content;
+            display: inline-block;
+            border-radius: 10px;
+            animation: blinkingBackground 3s infinite;
+ }
+ .heador{
+    color:black;
+    font-size: large;
+    font-weight: bold;
+    
+    -ms-text-align-last: center;
+    color: rgb(0, 0, 0);
+		padding: 5px;
+		display: inline-block;
+		border-radius: 5px;
+		animation: blinkingBackgroun 1s infinite;
+}
+@keyframes blinkingBackgroun{
+    0%		{ background-color: #e2ff02;}
+    100%	   { background-color:#e2ff02;}
+}
