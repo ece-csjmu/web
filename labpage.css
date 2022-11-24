@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  .row{
+    margin-top: 20px;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0px 8px;
+  }
+  .video{
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+  iframe{
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 90%;
+    height: 40vh;
+    box-shadow: 0px 0px 2px 2px #544bb0;
+   }
+  img{
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 90%;
+    height: 40vh;
+    box-shadow: 0px 0px 2px 2px #544bb0;
+  }
+  .card {
+    border-radius: 15px;
+    margin: 0px;
+    color: beige;
+    box-shadow: 0px 0px 2px 2px rgba(242, 228, 228, 0.2);
+    background-color: #140d28;
+  }
+  .card:hover{
+    box-shadow: 0px 0px 10px 10px rgba(242, 228, 228, 0.2);
+    background-color: #000000;
+  }
+  
+  .about-section {
+    padding: 0px;
+    text-align: center;
+    background-color: #19122e;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 5px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: rgb(3, 229, 245);
+  }
+  
+  .button{
+    border-radius: 15px;
+    outline: 0;
+    display: inline-block;
+    padding: 4px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: rgb(232, 244, 8);
+    color: black;
+  }
+  .back{
+    background-color: #19122e;
+  }
+  .ti{
+    background-color: blanchedalmond;
+  }
+  .blink-bg{
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    animation: blinkingBackground 10s infinite;
+}
+@keyframes blinkingBackground{
+    0%		{ background-color: #10c018;}
+    25%		{ background-color: #587aab;}
+    50%		{ background-color: #946265;}
+    75%		{ background-color: #71aaf9;}
+    100%	   { background-color: #04a1d5;}
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.buttons{
+    color: aqua;
+    font-weight: bold;
+    background-color: greenyellow;
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    border: 3px solid #000000;
+    padding: 10px;
+    border-radius: 7px;
+}
